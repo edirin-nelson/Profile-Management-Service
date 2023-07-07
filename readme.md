@@ -13,5 +13,3 @@ The Profile Management Service is responsible for the following tasks:
 - Verifying the user's identity through a robust document verification process to ensure the authenticity of the provided information.
 - Securely storing the user profile information in the database.
 - Providing options for users to update or modify their profile information as needed.
-
-Please refer to the individual service documentation for more detailed information about specific endpoints and functionalities.
