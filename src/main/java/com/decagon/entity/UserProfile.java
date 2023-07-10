@@ -24,9 +24,9 @@ public class UserProfile {
     private String employmentStatus;
     @Column(name = "income")
     private BigDecimal income;
-    @Lob
-    @Column(name = "verification_document")
-    private byte[] identityVerificationDocument;
+//    @Lob
+//    @Column(name = "verification_document")
+//    private byte[] identityVerificationDocument;
 
     private String proofOfAddress;
     @Column(name = "created_at")
@@ -42,7 +42,7 @@ public class UserProfile {
         this.contactInfo = contactInfo;
         this.employmentStatus = employmentStatus;
         this.income = income;
-        this.identityVerificationDocument = identityVerificationDocument;
+//        this.identityVerificationDocument = identityVerificationDocument;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
